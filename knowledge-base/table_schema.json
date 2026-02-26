@@ -1,0 +1,146 @@
+{
+  "_database": {
+    "composite_key": [ "student_id", "year" ],
+    "description": "Students typically stay for 3 years; records are unique by student_id + year.",
+    "columns": [
+      { "name": "student_id", "description": "Student ID.", "type": "ID", "named_range": "student_id" },
+      { "name": "class", "description": "Secondary key. The class identifier.", "type": "STRING", "named_range": "class" },
+      { "name": "student_name", "description": "Full name.", "type": "STRING", "named_range": "student_name" },
+      { "name": "nickname", "description": "Nickname.", "type": "STRING", "named_range": "nickname" },
+      { "name": "year", "description": "Calendar year. Part of composite key.", "type": "NUMBER", "validation": "2000-2100", "named_range": "year" },
+      { "name": "attendance", "description": "Overall attendance (legacy).", "type": "NUMBER", "named_range": "attendance" },
+      { "name": "red_marks", "description": "Record of disciplinary flags.", "type": "NUMBER", "named_range": "red_marks" },
+      { "name": "CA_Q1", "description": "CA Quarter 1", "type": "NUMBER", "named_range": "CA_Q1" },
+      { "name": "CA_Q2", "description": "CA Quarter 2", "type": "NUMBER", "named_range": "CA_Q2" },
+      { "name": "CA_Q3", "description": "CA Quarter 3", "type": "NUMBER", "named_range": "CA_Q3" },
+      { "name": "CA_Q4", "description": "CA Quarter 4", "type": "NUMBER", "named_range": "CA_Q4" },
+      { "name": "Midterm_Term_01_Listening", "description": "Midterm T1: Listening", "type": "NUMBER", "named_range": "Midterm_Term_01_Listening" },
+      { "name": "Midterm_Term_01_Reading", "description": "Midterm T1: Reading", "type": "NUMBER", "named_range": "Midterm_Term_01_Reading" },
+      { "name": "Midterm_Term_01_Speaking", "description": "Midterm T1: Speaking", "type": "NUMBER", "named_range": "Midterm_Term_01_Speaking" },
+      { "name": "Midterm_Term_01_Writing", "description": "Midterm T1: Writing", "type": "NUMBER", "named_range": "Midterm_Term_01_Writing" },
+      { "name": "Midterm_Term_01_Progress", "description": "Midterm T1: Progress", "type": "NUMBER", "named_range": "Midterm_Term_01_Progress" },
+      { "name": "Midterm_Term_01_Use_of_English", "description": "Midterm T1: Use of English", "type": "NUMBER", "named_range": "Midterm_Term_01_Use_of_English" },
+      { "name": "Midterm_Term01_Score", "description": "Midterm Score T1", "type": "NUMBER", "named_range": "Midterm_Term01_Score" },
+      { "name": "Midterm_Term01_Class_Average", "description": "Midterm Class Avg T1", "type": "NUMBER", "named_range": "Midterm_Term01_Class_Average" },
+      { "name": "Finals_Term_01_Listening", "description": "Finals T1: Listening", "type": "NUMBER", "named_range": "Finals_Term_01_Listening" },
+      { "name": "Finals_Term_01_Reading", "description": "Finals T1: Reading", "type": "NUMBER", "named_range": "Finals_Term_01_Reading" },
+      { "name": "Finals_Term_01_Speaking", "description": "Finals T1: Speaking", "type": "NUMBER", "named_range": "Finals_Term_01_Speaking" },
+      { "name": "Finals_Term_01_Writing", "description": "Finals T1: Writing", "type": "NUMBER", "named_range": "Finals_Term_01_Writing" },
+      { "name": "Finals_Term_01_Progress", "description": "Finals T1: Progress", "type": "NUMBER", "named_range": "Finals_Term_01_Progress" },
+      { "name": "Finals_Term_01_Use_of_English", "description": "Finals T1: Use of English", "type": "NUMBER", "named_range": "Finals_Term_01_Use_of_English" },
+      { "name": "Finals_Term01_Score", "description": "Finals Score T1", "type": "NUMBER", "named_range": "Finals_Term01_Score" },
+      { "name": "Finals_Term01_Class_Average", "description": "Finals Class Avg T1", "type": "NUMBER", "named_range": "Finals_Term01_Class_Average" },
+      { "name": "Midterm_Term_02_Listening", "description": "Midterm T2: Listening", "type": "NUMBER", "named_range": "Midterm_Term_02_Listening" },
+      { "name": "Midterm_Term_02_Reading", "description": "Midterm T2: Reading", "type": "NUMBER", "named_range": "Midterm_Term_02_Reading" },
+      { "name": "Midterm_Term_02_Speaking", "description": "Midterm T2: Speaking", "type": "NUMBER", "named_range": "Midterm_Term_02_Speaking" },
+      { "name": "Midterm_Term_02_Writing", "description": "Midterm T2: Writing", "type": "NUMBER", "named_range": "Midterm_Term_02_Writing" },
+      { "name": "Midterm_Term_02_Progress", "description": "Midterm T2: Progress", "type": "NUMBER", "named_range": "Midterm_Term_02_Progress" },
+      { "name": "Midterm_Term_02_Use_of_English", "description": "Midterm T2: Use of English", "type": "NUMBER", "named_range": "Midterm_Term_02_Use_of_English" },
+      { "name": "Midterm_Term02_Score", "description": "Midterm Score T2", "type": "NUMBER", "named_range": "Midterm_Term02_Score" },
+      { "name": "Midterm_Term02_Class_Average", "description": "Midterm Class Avg T2", "type": "NUMBER", "named_range": "Midterm_Term02_Class_Average" },
+      { "name": "Finals_Term_02_Listening", "description": "Finals T2: Listening", "type": "NUMBER", "named_range": "Finals_Term_02_Listening" },
+      { "name": "Finals_Term_02_Reading", "description": "Finals T2: Reading", "type": "NUMBER", "named_range": "Finals_Term_02_Reading" },
+      { "name": "Finals_Term_02_Speaking", "description": "Finals T2: Speaking", "type": "NUMBER", "named_range": "Finals_Term_02_Speaking" },
+      { "name": "Finals_Term_02_Writing", "description": "Finals T2: Writing", "type": "NUMBER", "named_range": "Finals_Term_02_Writing" },
+      { "name": "Finals_Term_02_Progress", "description": "Finals T2: Progress", "type": "NUMBER", "named_range": "Finals_Term_02_Progress" },
+      { "name": "Finals_Term_02_Use_of_English", "description": "Finals T2: Use of English", "type": "NUMBER", "named_range": "Finals_Term_02_Use_of_English" },
+      { "name": "Finals_Term02_Score", "description": "Finals Score T2", "type": "NUMBER", "named_range": "Finals_Term02_Score" },
+      { "name": "Finals_Term02_Class_Average", "description": "Finals Class Avg T2", "type": "NUMBER", "named_range": "Finals_Term02_Class_Average" },
+      { "name": "Term_01_cefr_reading_number", "description": "CEFR Reading Number T1", "type": "NUMBER", "named_range": "Term_01_cefr_reading_number" },
+      { "name": "Term_01_cefr_listening_number", "description": "CEFR Listening Number T1", "type": "NUMBER", "named_range": "Term_01_cefr_listening_number" },
+      { "name": "Term_01_cefr_speaking_number", "description": "CEFR Speaking Number T1", "type": "NUMBER", "named_range": "Term_01_cefr_speaking_number" },
+      { "name": "Term_01_cefr_writing_number", "description": "CEFR Writing Number T1", "type": "NUMBER", "named_range": "Term_01_cefr_writing_number" },
+      { "name": "Term_01_cefr_use_of_english_number", "description": "CEFR Use of English Number T1", "type": "NUMBER", "named_range": "Term_01_cefr_use_of_english_number" },
+      { "name": "Term_02_cefr_reading_number", "description": "CEFR Reading Number T2", "type": "NUMBER", "named_range": "Term_02_cefr_reading_number" },
+      { "name": "Term_02_cefr_listening_number", "description": "CEFR Listening Number T2", "type": "NUMBER", "named_range": "Term_02_cefr_listening_number" },
+      { "name": "Term_02_cefr_speaking_number", "description": "CEFR Speaking Number T2", "type": "NUMBER", "named_range": "Term_02_cefr_speaking_number" },
+      { "name": "Term_02_cefr_writing_number", "description": "CEFR Writing Number T2", "type": "NUMBER", "named_range": "Term_02_cefr_writing_number" },
+      { "name": "Term_02_cefr_use_of_english_number", "description": "CEFR Use of English Number T2", "type": "NUMBER", "named_range": "Term_02_cefr_use_of_english_number" },
+      { "name": "Term_01_overall_cefr_number", "description": "Overall CEFR Number Term 1", "type": "NUMBER", "named_range": "Term_01_overall_cefr_number" },
+      { "name": "Term_02_overall_cefr_letter", "description": "Overall CEFR Letter Term 2", "type": "STRING", "named_range": "Term_02_overall_cefr_letter" },
+      { "name": "Term_01_cefr_reading_letter", "description": "CEFR Reading Letter T1", "type": "STRING", "named_range": "Term_01_cefr_reading_letter" },
+      { "name": "Term_01_cefr_listening_letter", "description": "CEFR Listening Letter T1", "type": "STRING", "named_range": "Term_01_cefr_listening_letter" },
+      { "name": "Term_01_cefr_speaking_letter", "description": "CEFR Speaking Letter T1", "type": "STRING", "named_range": "Term_01_cefr_speaking_letter" },
+      { "name": "Term_01_cefr_writing_letter", "description": "CEFR Writing Letter T1", "type": "STRING", "named_range": "Term_01_cefr_writing_letter" },
+      { "name": "Term_01_cefr_use_of_english_letter", "description": "CEFR Use of English Letter T1", "type": "STRING", "named_range": "Term_01_cefr_use_of_english_letter" },
+      { "name": "Term_02_cefr_reading_letter", "description": "CEFR Reading Letter T2", "type": "STRING", "named_range": "Term_02_cefr_reading_letter" },
+      { "name": "Term_02_cefr_listening_letter", "description": "CEFR Listening Letter T2", "type": "STRING", "named_range": "Term_02_cefr_listening_letter" },
+      { "name": "Term_02_cefr_speaking_letter", "description": "CEFR Speaking Letter T2", "type": "STRING", "named_range": "Term_02_cefr_speaking_letter" },
+      { "name": "Term_02_cefr_writing_letter", "description": "CEFR Writing Letter T2", "type": "STRING", "named_range": "Term_02_cefr_writing_letter" },
+      { "name": "Term_02_cefr_use_of_english_letter", "description": "CEFR Use of English Letter T2", "type": "STRING", "named_range": "Term_02_cefr_use_of_english_letter" },
+      { "name": "Term_01_overall_cefr_letter", "description": "Overall CEFR Letter Term 1", "type": "STRING", "named_range": "Term_01_overall_cefr_letter" },
+      { "name": "Term_01_overall_cefr_class_average", "description": "Overall CEFR Class Average Term 1", "type": "NUMBER", "named_range": "Term_01_overall_cefr_class_average" },
+      { "name": "Term_02_overall_cefr_number", "description": "Overall CEFR Number Term 2", "type": "NUMBER", "named_range": "Term_02_overall_cefr_number" },
+      { "name": "Term_02_overall_cefr_class_average", "description": "Overall CEFR Class Average Term 2", "type": "NUMBER", "named_range": "Term_02_overall_cefr_class_average" },
+      { "name": "Term_01_Attendance_Percent", "description": "Attendance Percentage for Term 1.", "type": "NUMBER", "named_range": "Term_01_Attendance_Percent" },
+      { "name": "Term_01_Absent_Count", "description": "Number of absences in Term 1.", "type": "NUMBER", "named_range": "Term_01_Absent_Count" },
+      { "name": "Term_01_Late_Count", "description": "Number of lates in Term 1.", "type": "NUMBER", "named_range": "Term_01_Late_Count" },
+      { "name": "Term_01_Very_Late_Count", "description": "Number of very lates in Term 1.", "type": "NUMBER", "named_range": "Term_01_Very_Late_Count" },
+      { "name": "Term_02_Attendance_Percent", "description": "Attendance Percentage for Term 2.", "type": "NUMBER", "named_range": "Term_02_Attendance_Percent" },
+      { "name": "Term_02_Absent_Count", "description": "Number of absences in Term 2.", "type": "NUMBER", "named_range": "Term_02_Absent_Count" },
+      { "name": "Term_02_Late_Count", "description": "Number of lates in Term 2.", "type": "NUMBER", "named_range": "Term_02_Late_Count" },
+      { "name": "Term_02_Very_Late_Count", "description": "Number of very lates in Term 2.", "type": "NUMBER", "named_range": "Term_02_Very_Late_Count" }
+    ]
+  },
+  "admin_settings": {
+    "columns": [
+      { "name": "year", "description": "Academic calendar year.", "type": "NUMBER" },
+      { "name": "Variable", "description": "Global config key.", "type": "STRING" },
+      { "name": "Value", "description": "Config value.", "type": "STRING" },
+      { "name": "Description", "description": "Explanation of variable.", "type": "STRING" }
+    ]
+  },
+  "admin_students": {
+    "columns": [
+      { "name": "student_id", "description": "Primary student identifier.", "type": "ID" },
+      { "name": "student_name", "description": "Full legal name.", "type": "STRING" },
+      { "name": "nickname", "description": "Preferred nickname.", "type": "STRING" },
+      { "name": "email", "description": "Student email.", "type": "STRING" },
+      { "name": "active_status", "description": "Boolean active flag.", "type": "BOOLEAN" }
+    ]
+  },
+  "admin_classes": {
+    "columns": [
+      { "name": "class_id", "description": "Class identifier (e.g., M1-3A).", "type": "STRING" },
+      { "name": "year", "description": "Calendar year.", "type": "NUMBER" },
+      { "name": "teacher_email", "description": "Assigned teacher email.", "type": "STRING" },
+      { "name": "course_level", "description": "CEFR Course level (e.g., A2).", "type": "STRING" }
+    ]
+  },
+  "admin_grading_policies": {
+    "columns": [
+      { "name": "year", "description": "Academic calendar year.", "type": "NUMBER" },
+      { "name": "policy_name", "description": "Name of the grading rule.", "type": "STRING" },
+      { "name": "component", "description": "CA, Midterm, or Final.", "type": "STRING" },
+      { "name": "weight_percentage", "description": "Weight in total calculation.", "type": "NUMBER" },
+      { "name": "min_passing_score", "description": "Passing threshold.", "type": "NUMBER" }
+    ]
+  },
+  "admin_red_marks": {
+    "columns": [
+      { "name": "year", "description": "Academic calendar year.", "type": "NUMBER" },
+      { "name": "category", "description": "Attendance, Grade, or Behaviour.", "type": "STRING" },
+      { "name": "trigger_threshold", "description": "Value that triggers a red mark.", "type": "NUMBER" },
+      { "name": "action_required", "description": "Intervention description.", "type": "STRING" }
+    ]
+  },
+  "admin_cefr_lookup": {
+    "columns": [
+      { "name": "year", "description": "Academic calendar year.", "type": "NUMBER" },
+      { "name": "min_score", "description": "Low range for CEFR letter.", "type": "NUMBER" },
+      { "name": "max_score", "description": "High range for CEFR letter.", "type": "NUMBER" },
+      { "name": "cefr_letter", "description": "Letter grade (e.g., B1).", "type": "STRING" },
+      { "name": "cefr_number_equivalent", "description": "Numeric CEFR standard.", "type": "NUMBER" }
+    ]
+  },
+  "dashboard": {
+    "description": "Teacher landing page with class selection.",
+    "columns": [
+      { "name": "Logo", "description": "A1:B2 merged area for logo.", "type": "IMAGE" },
+      { "name": "Headline Deck 1", "description": "C1 headline.", "type": "STRING" },
+      { "name": "Headline Deck 2", "description": "C2 sub-headline.", "type": "STRING" },
+      { "name": "Class Selection Prompt", "description": "A4 label.", "type": "STRING" },
+      { "name": "Class Dropdown", "description": "B4 dropdown selection cell.", "type": "DROPDOWN" }
+    ]
+  }
+}

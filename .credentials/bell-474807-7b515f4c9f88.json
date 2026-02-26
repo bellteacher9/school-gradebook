@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "bell-474807",
+  "private_key_id": "7b515f4c9f88950b899a7f2d56f8b63b8a6e3e25",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDDH8/ccCHShITo\nbTCRYgKrXzqhggRc0e0lqS1MlqraPOpt21Q4VkeRdRgv/22CrS/y0BtZvt+WyHpn\niXtD6ASdecjoTzgXICT8+HvNwb1Wm7UqAplHRvsbOzH0AmSTumFQBUbm4fKUTBs5\nf9Xru7aDBLEmvbBuiD20p6+VRKTAmgYUS+jnGeL5j6kRnd1xR802ZTtlEY2YDNpY\n3m02E8sjuYgg/s365HQAi3dl1t1t6gJB+bDQ7rbgyGU6TBrTzE5NT0awlIEM1/Ui\ndCwbfrRDBjfa4Luu6JhML0cR2BkbQaeWmNBymqz8TZKBQbmQQshkfSJVQUZE0u1G\nAF2maZbNAgMBAAECggEAHvcu9RREgdSvBPXDFedgdhLcSqJID/TutiHVgwiMH6s4\nJuv+PxyOKgrTplZaajkS2W1mUcVFVXgGWOUMD1hEVztrA1cDF0RuKklC2IHtCtAW\nHY8hBRtCIW2w/UDd9kXHSLw1ptFnvlofne3oJIt7KOq3NGc5Fyl+5WsRJdapcLkZ\np2eVl1DLfWADyWjX4i2NppRjs2wGz1JxrWtagcbwuew+tJnhlkaA7Ca37cbL8aEZ\nEZRND64zOk6Q4eSStDQyUBvmqBB+jqIRpGUDZtHO2yOCQfrE3MvfIvtzXiqd1Wej\ntTJBfZ7yoKugA7ii9A/aGTi6y2sFmyJBBhGPk4CkoQKBgQDw8XGRlOEhT5ajeRhl\n86dVAoFQrYpcWzKXvURTl0z5n/djHqZdsIsQ8BOwlFINMGEg8GEPeRupbS2EUGlA\nnc+6yw70AftUE1kPsmuVlyeOVHQwvcIuR/oYIGf2LXgA43agOiiEKOODaRdjQPO3\nNA50PBjLfwh2+/af9cnwoRLqMQKBgQDPUV4sxAQWPxkHVTw4UV8/AiG3WgmqoFln\npKvpB1B/dE0mbaL6ZZhIn/cXdGXRmJG8hCHjTBoEfek+2s+gVglpf0SGhTfZH4ip\nSzHPOEoo7IGTY+8J3LeWiV82wuA2JfX0AY03D608nHkB8LLcko6u+3zRUD0wwMWn\nLyQu5J7zXQKBgQDF+BwwWfuAuzwypVT+r+xVVPGbsHt21xgCxWhWpoKAuIcz0gMw\nB9a73AbRl4yzeYTU461cYU3xL9uuU8OnbAM6n41xwA8ZTaxn0VnEV6YQtCOjyMa7\n8Df1iurgwwtO75aQoDiaHl6Ros+spbmaVhNqPdbBnWb/HJfPZsy+AhrggQKBgQC0\ntSMWeCFr1sIVPzmHiX4xKMWE0WmdnblwevwR2ftTrWdWOLiX9BhiLXUur5nUsV1O\n6gmz23DOO4Yk8IuMIZKAr5tmehZtHmx7zHx1OIaD12s2syP3/7jS8ZjZ3dGbwUj6\n0KNrvDFvpKBhjZIKa4ENi06IEJ3VsiJXEONEMKlQTQKBgQC05eNEU9hntJK1GVHz\nop3SqqhSxF+VH2XNV6DpsP6y4+844hwfd5ztsALT1E2uIB00bOEHR0aZeWmssP+H\nXKpP9HRfvcaG2J+9xbq49SLUZ0B4hUsS9VTqVbq24/MLNg6GNq/v/HXQRv+g+sf3\nn0WbpuXz8jc9jWOTvnjHrzk1RQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "grading-app-dev@bell-474807.iam.gserviceaccount.com",
+  "client_id": "116063863928379575702",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/grading-app-dev%40bell-474807.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
