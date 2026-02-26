@@ -1,0 +1,6 @@
+.credentials/
+*.json
+*.env
+.clasp.json
+tool-outputs/
+node_modules/
